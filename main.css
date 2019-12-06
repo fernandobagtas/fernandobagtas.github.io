@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+body {
+    font-size: 20px;
+    font-family: "Source Code Pro", Consolas, monaco, monospace;
+    margin: 12px auto 12px;
+    height: 500px;
+    width: 2600px;
+    line-height: 1.45em;
+}
+h1{
+    font-size: 50px;
+    font-family: "Times New Roman";
+    color: #013c64;
+    transform: translate(0px, 10px);
+    height: 50px;
+    width: 1000px;
+
+}
+
+a {
+    color: #454545;
+}
+a:hover {
+    color: #000;
+}
+ul {
+    margin: 0 20px;
+    padding: 0;
+}
+.dark {
+    background: #222;
+}
+
+#example {
+    min-height: 500px;
+    width: 2650px;
+    transform: translate(0px, 0px);
+    margin: 0px 0;
+}
+
+p {
+    width: 560px;
+}
+pre {
+    color: #444;
+    font-family: Ubuntu Mono, Monaco, monospace;
+    padding: 4px 8px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+}
+h1 small {
+    font-weight: normal;
+    font-size: 0.5em;
+}
+h3 {
+    margin-top: 40px;
+}
+.float {
+    float: left;
+}
+.centered {
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+input {
+    font-size: 16px;
+}
+
+/* data table styles */
+#grid {
+    transform: translate(0px, 30px);
+    height: 600px;
+    width: 100%;
+    margin-bottom: 2em;
+    overflow-y: scroll;
+    overflow-x: visible;
+
+}
+.header { font-weight: bold;}
+.row, .header { clear: left; font-size: 21px; line-height: 20px; height: 35px; }
+.row:nth-child(odd) { background: rgba(0,0,0,0.05); }
+.cell { float: left; overflow: hidden; white-space: nowrap; width: 300px; height: 30px; }
+.col-0 { width: 600px; }
+.col-1 { width: 450px; }
+
+
+/* parcoords styles */
+.parcoords > svg, .parcoords > canvas {
+    font: 21px "Source Code Pro", Consolas, monaco, monospace;
+    position: absolute;
+}
+
+.parcoords > canvas {
+    font: 14px sans-serif;
+    position: absolute;
+}
+
+.parcoords > canvas {
+    pointer-events: none;
+}
+
+.parcoords text.label {
+    cursor: default;
+}
+
+.parcoords rect.background {
+    fill: transparent;
+}
+.parcoords rect.background:hover {
+    fill: rgba(120,120,120,0.2);
+}
+.parcoords .resize rect {
+    fill: rgba(0,0,0,0.1);
+}
+.parcoords rect.extent {
+    fill: rgba(255,255,255,0.25);
+    stroke: rgba(0,0,0,0.6);
+}
+.parcoords .axis line, .parcoords .axis path {
+    fill: none;
+    stroke: #454545;
+    shape-rendering: crispEdges;
+}
+.parcoords canvas {
+    opacity: 1;
+    transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+}
+.parcoords canvas.faded {
+    opacity: 0.25;
+}
+.parcoords {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+}
