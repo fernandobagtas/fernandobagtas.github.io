@@ -68,13 +68,13 @@ d3.csv('Video_Games_Sales_Edited_9.csv', function(data) {
     pv.svg.selectAll(".dimension")
         .on("click", change_color)
         .selectAll(".label")
-        .style("font-size", "14px")
+        .style("font-size", "12px")
         .attr("y", -5);
 
     ////I'm using this to set the size of the tick labels
     pv.svg.selectAll(".dimension")
         .selectAll(".tick")
-        .style("font-size", "14px")
+        .style("font-size", "12px");
 
     /*
     Yanzhao's Part
