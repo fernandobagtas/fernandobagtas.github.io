@@ -83,7 +83,7 @@ input {
 .row:nth-child(odd) { background: rgba(0,0,0,0.05); }
 .cell { float: left; overflow: hidden; white-space: nowrap; width: 220px; height: 30px; }
 .col-0 { width: 440px; }
-.col-1 { width: 340px; }
+.col-1 { width: 280px; }
 
 
 /* parcoords styles */
