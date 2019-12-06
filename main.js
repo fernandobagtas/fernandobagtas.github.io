@@ -76,6 +76,7 @@ d3.csv('Video_Games_Sales_Edited_9.csv', function(data) {
         .selectAll(".tick")
         .style("font-size", "12px");
 
+
     /*
     Yanzhao's Part
     *//*
