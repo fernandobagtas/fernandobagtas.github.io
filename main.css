@@ -32,8 +32,8 @@ ul {
 }
 
 #example {
-    min-height: 500px;
-    width: 2500px;
+    min-height: 400px;
+    width: 2200px;
     transform: translate(0px, 0px);
     margin: 0px 0;
 }
@@ -81,7 +81,7 @@ input {
 .header { font-weight: bold;}
 .row, .header { clear: left; font-size: 21px; line-height: 20px; height: 35px; }
 .row:nth-child(odd) { background: rgba(0,0,0,0.05); }
-.cell { float: left; overflow: hidden; white-space: nowrap; width: 280px; height: 30px; }
+.cell { float: left; overflow: hidden; white-space: nowrap; width: 260px; height: 30px; }
 .col-0 { width: 480px; }
 .col-1 { width: 370px; }
 
