@@ -3,8 +3,8 @@ body {
     font-size: 20px;
     font-family: "Source Code Pro", Consolas, monaco, monospace;
     margin: 12px auto 12px;
-    height: 500px;
-    width: 2600px;
+    height: 400px;
+    width: 1980px;
     line-height: 1.45em;
 }
 h1{
@@ -33,7 +33,7 @@ ul {
 
 #example {
     min-height: 500px;
-    width: 2650px;
+    width: 1980px;
     transform: translate(0px, 0px);
     margin: 0px 0;
 }
@@ -81,9 +81,9 @@ input {
 .header { font-weight: bold;}
 .row, .header { clear: left; font-size: 21px; line-height: 20px; height: 35px; }
 .row:nth-child(odd) { background: rgba(0,0,0,0.05); }
-.cell { float: left; overflow: hidden; white-space: nowrap; width: 300px; height: 30px; }
-.col-0 { width: 600px; }
-.col-1 { width: 450px; }
+.cell { float: left; overflow: hidden; white-space: nowrap; width: 270px; height: 30px; }
+.col-0 { width: 500px; }
+.col-1 { width: 400px; }
 
 
 /* parcoords styles */
